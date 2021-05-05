@@ -5,15 +5,6 @@ public class Solution {
 	public long solution(int[][] rectangles) {
 		long answer = -1;
 		Set<int[]> r = new HashSet<int[]>();
-
-		//마스터 공간 시작
-		System.out.println("마스터");
-		//마스터 공간 끝
-		//버그공간 시작
-		System.out.println("버그");
-		//버그공간 끝
-		
-		//뭔가 추가
 		
 		for (int i = 0; i < rectangles.length; i++) {
 			int x1 = rectangles[i][0];
