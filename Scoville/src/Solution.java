@@ -13,7 +13,8 @@ public class Solution {
 		}
 		
 		while (true) {
-			Arrays.sort(scoville);
+			//Arrays.sort(scoville);
+			//heap 이진 트리 정렬
 			
 			if(scoville.length == 1 && scoville[0] < K) {
 				return -1;
