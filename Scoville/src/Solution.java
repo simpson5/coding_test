@@ -1,9 +1,12 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 
 //섞은 음식의 스코빌 지수 = 가장 맵지 않은 음식의 스코빌 지수 + (두 번째로 맵지 않은 음식의 스코빌 지수 * 2)
 public class Solution {
 	public int solution(int[] scoville, int K) {
 		int answer = 0;
+		
+		ArrayList<Integer> heap;
 		
 		if(scoville[0] == 0 && scoville[1] == 0) {
 			return -1;
